@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>KIA</b> Ships</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Ships</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="landing.html" class="w3-bar-item w3-button">Prices</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>KIA</b></span> <span class="w3-hide-small w3-text-light-grey">Ships</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Featured</h3>
+  </div>
+<!-- the image of the homepage -->
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">What's Up Dock</div>
+        <img id="myImage" src="yacht1.jpeg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <script>
+    // javascript that makes the images clickable
+    document.getElementById("myImage").addEventListener("click", function() {
+      window.location.href = "landing.html"; // Replace with the URL of the other page
+    });
+  </script>
+
+<div class="w3-row-padding">
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+      <div class="w3-display-topleft w3-black w3-padding">What's Up Dock</div>
+      <img id="myImage1" src="yacht2.jpeg" alt="House" style="width:100%">
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById("myImage").addEventListener("click", function() {
+    window.location.href = "landing.html"; // Replace with the URL of the other page
+  });
+</script>
+
+<div class="w3-row-padding">
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+      <div class="w3-display-topleft w3-black w3-padding">What's Up Dock</div>
+      <img id="myImage2" src="yacht3.jpeg" alt="House" style="width:100%">
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById("myImage2").addEventListener("click", function() {
+    window.location.href = "landing.html"; // Replace with the URL of the other page
+  });
+</script>
+
+
+<div class="w3-row-padding">
+  <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+      <div class="w3-display-topleft w3-black w3-padding">What's Up Dock</div>
+      <img id="myImage3" src="yacht4.jpeg" alt="House" style="width:100%">
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById("myImage3").addEventListener("click", function() {
+    window.location.href = "landing.html"; // Replace with the URL of the other page
+  });
+</script>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>At Kia Shipping, we are your trusted partner in the world of maritime transportation. With a legacy of excellence spanning decades, we have become synonymous with reliability, efficiency, and innovation in the shipping industry.
+        Our state-of-the-art fleet consists of a diverse range of vessels, each equipped with cutting-edge technology and maintained to the highest standards. From container ships to bulk carriers, we have the capabilities to handle all your shipping needs, whether it's transporting goods across oceans or navigating intricate waterways.
+    </p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next ship.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="Github.com" title="W3.CSS" target="_blank" class="w3-hover-text-green">KIA SHIPPING CO.</a></p>
+</footer>
+
+</body>
+</html>
